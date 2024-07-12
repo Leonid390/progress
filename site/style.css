@@ -1,0 +1,48 @@
+html{
+    font-style: 'Inter';
+}
+#sidebar{
+height: 600px;
+width: 32%;
+float: left;
+color: #D6FF6B;
+
+}
+#content{
+color: #D6FF6B;
+min-height: 600 px;
+width: 798px;
+float: left
+
+}
+#buttons{
+height: 600px;
+color: #D6FF6B;
+}
+#footer{
+color: #D6FF6B;
+height: 100%;
+}
+#header{
+color: #5988FF;
+height: 140px;
+}
+#wrapper{
+color: #D6FF6B;
+width: 1200px;
+margin: 0 auto;
+}
+div:not(#wrapper){
+border: 1 px  rgb(255, 255, 255);
+height: 300 px;
+}
+#header, #footer{
+background: #ffffff
+}
+#sidebar, #content{
+background: #5988FF
+}
+#buttons{
+font-size: 30px;
+background: #ffffff
+}
